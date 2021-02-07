@@ -9,6 +9,13 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MTsNegeriKotaTegal">
+        <activity android:name=".KontakActivity"></activity>
+        <activity android:name=".ProgramActivity" />
+        <activity android:name=".ProfilActivity" />
+        <activity android:name=".SejarahActivity" />
+        <activity android:name=".EkstrakulikulerActivity" />
+        <activity android:name=".BerandaActivity" />
+        <activity android:name=".PrestasiActivity" />
         <activity android:name=".MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
