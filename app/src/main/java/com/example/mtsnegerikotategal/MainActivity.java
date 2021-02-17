@@ -13,8 +13,16 @@ public class MainActivity extends AppCompatActivity {
         super.onCreate(savedInstanceState);
         setContentView(R.layout.activity_main);
     }
-    public void beranda(View view){
-        Intent intent=new Intent(MainActivity.this, BerandaActivity.class);
+    public void profil(View view){
+        Intent intent=new Intent(MainActivity.this, ProfilActivity.class);
+        startActivity(intent);
+    }
+    public void program(View view){
+        Intent intent=new Intent(MainActivity.this, ProgramActivity.class);
+        startActivity(intent);
+    }
+    public void gurudanstaf(View view){
+        Intent intent=new Intent(MainActivity.this, GurudanStafActivity.class);
         startActivity(intent);
     }
     public void ekstrakulikuler(View view){
@@ -23,14 +31,6 @@ public class MainActivity extends AppCompatActivity {
     }
     public void sejarah(View view){
         Intent intent=new Intent(MainActivity.this, SejarahActivity.class);
-        startActivity(intent);
-    }
-    public void profil(View view){
-        Intent intent=new Intent(MainActivity.this, ProfilActivity.class);
-        startActivity(intent);
-    }
-    public void program(View view){
-        Intent intent=new Intent(MainActivity.this, ProgramActivity.class);
         startActivity(intent);
     }
     public void kontak(View view){
