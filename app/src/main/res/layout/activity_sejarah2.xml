@@ -1,9 +1,248 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     tools:context=".SejarahActivity">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="9"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="710dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="10dp">
+
+                <ImageView
+                    android:layout_width="55dp"
+                    android:layout_height="55dp"
+                    android:layout_marginLeft="12dp"
+                    android:layout_marginTop="12dp"
+                    android:layout_marginRight="12dp"
+                    android:src="@drawable/mts" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="20dp"
+                    android:text="SEJARAH"
+                    android:textColor="#000"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="80dp"
+                    android:layout_marginTop="42dp"
+                    android:layout_marginRight="12dp"
+                    android:text="MTs NEGERI KOTA TEGAL"
+                    android:textSize="15sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="80dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Sejarah Singkat MTs Negeri Kota Tegal"
+                    android:textColor="#000"
+                    android:textSize="12sp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="110dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Madrasah Tsanawiyah Negeri Margadana kota Tegal awalnya berdiri atas gagasan dan inisiatif dari Bapak Drs. H. Moh. Sofie H. (Rohimahulloh) kepala Kandepag kota Tegal (sekarang Kankemenag) pada bulan Juni 1993. Saat itu beliau menugasi Bapak Bakir Asruri, S. Ag. pegawai Kantor Depag kota Tegal sebagai ketua panitia “Pendirian Madrasah Tsanawiyah Margadana”. Dengan dibantu oleh beberapa tokoh masyarakat dari desa Margadana, Kaligangsa, dan sekitar kota Tegal di antaranya bapak H. Thobi’in, H. Sya’roni, Sunaskam, B.Sc., Haris Mufrodi, dan Drs. Nurokhim, panitia segera mengadakan rapat pada tanggal 8 Juni 1993 di kantor Depag kota Tegal."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="270dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Dalam rapat itu juga dihadiri oleh calon kepala Madrasah  bapak Nadi, S.Ag, calon guru, dan calon pegawai. Rapat tersebut yang dilanjutkan dengan rapat berikutnya menghasilkan kesepakatan dan diputuskan “kota Tegal perlu didirikan lembaga pendidikan Madrasah Tsanawiyah (calon) Negeri”. Saat itu nama MTs yang didirikan adalah “Madrasah Tsanawiyah Negeri Filial Slawi di Margadana”."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="370dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Tepatnya pada tanggal 19 Juli 1993 dibukalah MTs Negeri Filial Slawi di Margadana sekaligus dibuka pendaftaran calon siswa baru yang pertama untuk tahun pelajaran 1993/1994. Panitia pendaftaran calon siswa baru itu diketuai oleh bapak Sunaskam, B.Sc  Selanjutnya Kegiatan Belajar Mengajar menempati bangunan MDA PUI Margadana. Tercatat dalam pendaftaran siswa baru tersebut sebanyak 55 anak dan  diampu oleh 13 Guru Tidak Tetap (GTT) atau tenaga honorer."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="490dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Status MTs N filial Slawi di Margadana berganti menjadi MTs Negeri Margadana Kota Tegal dengan ditandai Surat Keputusan Menteri Agama RI nomor 515 A/A/95 tanggal 25 November 1995. Tepatnya pada tanggal      20 Juni 1996 resmi berubahnya MTs N filial Slawi di Margadana berganti menjadi  MTs Negeri Margadana kota Tegal."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="565dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Pada perkembangan selanjutnya,  hingga tahun pelajaran 1995/1996 jumlah siswa mencapai 156. Pada tahun itu juga, MTs Negeri Margadana berhasil meluluskan 54 siswa dari peserta ujian 55 siswa. Keadaan sarana yang masih  memprihatinkan merupakan penyebab kendala kemajuan     MTs pada saat itu. Walaupun statusnya filial, tetapi sekolah pada saata itu belum memiliki gedung sendiri. Hal tersebut berlangsung hingga tahun 1998 yang masih “menumpang” di Madrasah Diniyah Awwaliyah (MDA) PUI Margadana."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="710dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Dengan semangat pantang menyerah, Bapak Nadi, S.Ag beserta para guru dan karyawan terus mengembangkan madrasah, karena jumlah siswa yang terus bertambah dan gedung tidak dapat menampungnya, selanjutnya Bapak kepala Madrasah beserta paraa guru dan pegawai meminjam gedung     MDA Sumurpanggang, kemudian pindah ke MDA Kaligangsa           (Masjid “Baitur Rohman”) sampai MDA Pesurungan Kidul kota Tegal. Saat itu jumlah siswa mencapai 244 siswa dengan jumlah rombongan belajar 6 kelas."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Pada tahun anggaran 1998/1999 MTs Negeri Margadana mendapat proyek pembangunan ruang belajar sebanyak 3 ruang kelas. Proyek pembangunan 3 ruang kelas itu dibangun di atas tanah waqaf dari Ibu Hj. Ismail seluas 3610 m2 berkat lobi dari Drs. H. Mulyono, selaku Kakandepag kota Tegal. Selanjutnya siswa yang menempati di gedung MDA Kaligangsa dipindah ke gedung baru MTsN yang berlokasi di Jalan Pendidikan desa Pesurungan Lor Kecamatan Margadana kota Tegal. Selanjutnya siswa yang 3 kelas dipindahkan ke MDA Pesurungan Kidul."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="220dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Perjuangan selanjutnya, para guru dan karyawan baik yanga berstatus PNS maupun guru/karyawan honorer dengan gotong royong (swadaya) membangun kantor dan 2 (dua) ruang kelas.. Keadaan tersebut berlangsung sampai tahun 2001."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="280dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Tepatnya pada tanggal 27 Februari 2001, Kepemimpinan Madrasah beralih dari Bapak Nadi, S. Ag kepada bapak Drs. H. Achfas Tafsir mantan kepala MTsN Babakan. Bapak Drs. H. Achfas Tafsir menjabat kepala Madrasah dari tahun 2001 sampai 2003 (22 bulan). Selanjutnya kepala Madrasah dijabat oleh bapak Drs. Wahidin tahun pelajaran 2003-2005 (22 bulan). Hingga tahun pelajaran 2004/2005 MTs Negeri Margadana mempunyai 35 guru dan pegawai, 670 siswa dengan jumlah ruang kelas 16 serta ruang kantor"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="380dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Pada tahun pelajaran 2005-2006 kepala madrasah dijabat oleh bapak    Drs. H. Noor Salim Mochtar, M.Pd. Selanjutnya dari tahun pelajaran 2006/2007 sampai 2008/2009 kepala Madrasah dijabat oleh bapak          Drs. Muh. Muntoyo, M.Pd. Pergantian kepala sempat tertunda sehingga terjadi kekosongan dan sebagai kepala sementara dijabat oleh               Bapak Drs. H. Kamaluddin, M.M    selaku Plt sampai dua kali pada tahun 2005 dan tahun 2006 (awal tahun 2007). Sejak Februari 2009 sampai    Maret 2012 kepala Madrasah dijabat oleh Bapak Drs. H. Tobari, M. Ag. Sejak 28 Maret 2012 hingga sekarang kepala MTs Negeri Margadana dijabat oleh Dra. Hj. Siti Fasikha, MM"
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="500dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Hingga saat ini, tahun pelajaran 2017/2018 perkembangan MTs Negeri Margadana semakin pesat. Jumlah guru dan karyawan mencapai 85 orang dan jumlah siswa 958 anak  (30 rombongan belajar), dengan jumlah ruang mencapai 59 ruang."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="550dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Secara geografis MTs Negeri Margadana Kota Tegal terletak di wilayah Kota Tegal bagian barat, yang menempati tanah seluas kurang lebih 8039 m2. Lokasi tepatnya berjarak 4 KM dari Pusat Pemerintahan Kota Tegal atau 1 KM sebeleh timur Terminal bus Kota Tegal."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+            <androidx.cardview.widget.CardView
+                android:layout_width="match_parent"
+                android:layout_height="710dp"
+                android:layout_rowWeight="1"
+                android:layout_columnWeight="1"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="12dp"
+                android:layout_marginBottom="12dp"
+                app:cardCornerRadius="10dp">
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="20dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Lokasinya di sebelah timur berbatasan dengan Madrasah Aliyah Negeri (MAN) Kota Tegal. Di sebelah selatan berbatasan dengan STIMIK Kota Tegal. Di sebelah barat berbatasan dengan MI unggulan “Ar-Ridho”, madrasah yang digagas dan disponsori oleh  guru-gur MTs Negeri Margadana sebagai madrasah persiapan negeri. Di sebelah utara berbatasan dengan tanah persawahan milik warga Pesurunganlor. Tempat ini sangat nyaman untuk lokasi pendidikan dikarenakan suasana yang jauh dari kebisingan arus lalu lintas kendaraan."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginTop="120dp"
+                    android:layout_marginRight="12dp"
+                    android:text="Pada Tahun 2017 Nama MTs Negeri Margadana Berubah menjadi MTs Negeri Kota Tegal Berdasar KMA 211 Tahun 2015 tentang Perubahan Nama Madrasah di Prov. Jawa Tengah."
+                    android:textColor="#000"
+                    android:textSize="12sp" />
+
+            </androidx.cardview.widget.CardView>
+
+
+        </GridLayout>
+    </ScrollView>
+
+    </RelativeLayout>
