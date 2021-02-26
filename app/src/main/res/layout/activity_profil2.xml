@@ -25,7 +25,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="12dp"
-            app:cardCornerRadius="10dp">
+            app:cardCornerRadius="10dp"
+            android:onClick="visimisi">
 
             <TextView
                 android:layout_width="wrap_content"
@@ -46,7 +47,8 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="12dp"
-        app:cardCornerRadius="10dp">
+        app:cardCornerRadius="10dp"
+        android:onClick="sarpras">
 
         <TextView
             android:layout_width="wrap_content"
@@ -67,7 +69,8 @@
         android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="12dp"
-        app:cardCornerRadius="10dp">
+        app:cardCornerRadius="10dp"
+        android:onClick="tentang">
 
         <TextView
             android:layout_width="wrap_content"
@@ -87,7 +90,8 @@
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="12dp"
-            app:cardCornerRadius="10dp">
+            app:cardCornerRadius="10dp"
+            android:onClick="galeri">
 
             <TextView
                 android:layout_width="wrap_content"

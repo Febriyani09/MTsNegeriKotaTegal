@@ -9,7 +9,11 @@
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
         android:theme="@style/Theme.MTsNegeriKotaTegal">
-        <activity android:name=".GurudanStafActivity"></activity>
+        <activity android:name=".GaleriActivity"></activity>
+        <activity android:name=".TentangActivity" />
+        <activity android:name=".SarprasActivity" />
+        <activity android:name=".VisiMisiActivity" />
+        <activity android:name=".GurudanStafActivity" />
         <activity android:name=".KontakActivity" />
         <activity android:name=".ProgramActivity" />
         <activity android:name=".ProfilActivity" />
