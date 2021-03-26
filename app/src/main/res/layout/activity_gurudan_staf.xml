@@ -69,6 +69,16 @@
                     android:textSize="17sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="80dp"
+                    android:text="Mapel Quran Hadits"
+                    android:textColor="#3F51B5"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
 
             </androidx.cardview.widget.CardView>
 
@@ -115,7 +125,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wakil Bidang Kurikulum"
+                    android:text="Wali Kelas 9B"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -174,7 +184,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wakil Bidang Kurikulum"
+                    android:text="Wali Kelas 7A"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -233,7 +243,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wakil Bidang Kurikulum"
+                    android:text="Wali Kelas 7G"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -292,7 +302,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="PP Humas"
+                    android:text="Wali Kelas 9A"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -351,7 +361,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="PP Kurikulum"
+                    android:text="Wali Kelas 9D"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -410,7 +420,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="PP Kessiswaan"
+                    android:text="Kepala Perpustakaan"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -468,6 +478,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Wakamad Kesiswaan"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
                     android:layout_marginTop="72dp"
                     android:text="Mapel Bahasa Arab"
                     android:textColor="#3F51B5"
@@ -518,7 +538,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas IX B"
+                    android:text="Wali Kelas 8A"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -577,7 +597,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas IX C"
+                    android:text="Wali Kelas 7B"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -636,7 +656,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas IX D"
+                    android:text="Wakamad Sarpras"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -695,7 +715,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas IX E"
+                    android:text="Wali Kelas 8C"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -754,7 +774,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas X F"
+                    android:text="Wakamad Humas"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -813,7 +833,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas X F"
+                    android:text="Wali Kelas 8D"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -872,7 +892,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas VIII B"
+                    android:text="Wali Kelas 9F"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -931,7 +951,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas VIII C"
+                    android:text="Wali Kelas 9C"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -990,7 +1010,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas VIII D"
+                    android:text="Wali Kelas 7E"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -1049,7 +1069,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas VIII E"
+                    android:text="Wali Kelas 9E"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -1108,7 +1128,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas VII A"
+                    android:text="Pembina Olahraga"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -1167,7 +1187,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas VII B"
+                    android:text="Wali Kelas 8F"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -1226,7 +1246,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas VII C"
+                    android:text="Wakamad Kurikulum"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -1285,7 +1305,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas VII D"
+                    android:text="Guru Piket"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -1344,7 +1364,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas VII E"
+                    android:text="Guru Piket"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -1403,7 +1423,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Wali Kelas VII F"
+                    android:text="Wali Kelas 9B "
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -1462,7 +1482,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Bendahara BOS"
+                    android:text="Pembina Agama"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -1521,7 +1541,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Bendahara BOS"
+                    android:text="Walikelas 8B"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -1575,6 +1595,15 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 8I"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1625,6 +1654,15 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 7D"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1675,6 +1713,15 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Pembina Agama"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1723,6 +1770,16 @@
                     android:text="YANI SUSYANTI, S.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Bagian pengajaran 2"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -1778,6 +1835,16 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Pembina OSIS"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
                     android:layout_marginTop="72dp"
                     android:text="Mapel Penjaskes"
                     android:textColor="#3F51B5"
@@ -1823,6 +1890,15 @@
                     android:textSize="20sp"
                     android:textStyle="bold" />
 
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Bagian Pengajaran 1"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -1871,6 +1947,16 @@
                     android:text="SUSIYANI, S.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 7C"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -1928,6 +2014,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 8H"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel IPS"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -1971,6 +2067,16 @@
                     android:text="M. ARIF BUDIANTO,S.Pd.I"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Kepala Lab Komputer"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -2028,6 +2134,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Guru Piket"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel BK"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2071,6 +2187,16 @@
                     android:text="ERNI, S.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Guru Piket"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -2128,6 +2254,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Pembina Pramuka"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel BK"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2170,6 +2306,16 @@
                     android:text="DEDE DEWI ESTUNINGSIH, S.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 7F"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -2227,6 +2373,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 7J"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Matematika"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2277,6 +2433,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Pembina Pramuka"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="IPA"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2319,6 +2485,16 @@
                     android:text="HERI CAHYO HIDAYAT"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Guru Piket"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -2376,6 +2552,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Kepala Laboratorium IPA"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel IPA"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2419,6 +2605,16 @@
                     android:text="TAJUDIN, S.Pd.I"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 7I"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -2476,6 +2672,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 9J"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel SKI"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2519,6 +2725,16 @@
                     android:text="DESSY WIJAYANTI, S.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 7H"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -2576,6 +2792,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 9I"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel IPA"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2619,6 +2845,16 @@
                     android:text="DINA YANIARI, S.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Pembina UKS"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -2676,6 +2912,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 8J"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel Matematika"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2719,6 +2965,16 @@
                     android:text="DJENAL ABIDIN, S.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Guru Piket"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -2776,6 +3032,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 9H"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel Bahasa Inggris"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2819,6 +3085,16 @@
                     android:text="NUNUNG KHUMAIDAH, S.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 8E"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -2876,6 +3152,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Guru Piket"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel Prakarya"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2926,6 +3212,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="-"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel Bahasa Arab"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -2966,7 +3262,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="DEWI FATICHA, S.Pd"
+                    android:text=""
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -2976,7 +3272,17 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
-                    android:text="Bahasa Inggris"
+                    android:text=""
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text=""
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
@@ -3019,6 +3325,16 @@
                     android:text="NOVIA DWI AYUNINGTYAS, S.Sn"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Staf Kesiswaan"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -3076,6 +3392,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Pembina UKS"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel Bahasa Indonesia"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -3119,6 +3445,16 @@
                     android:text="SOLIKHATUN, S.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Guru Piket"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -3176,6 +3512,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Guru Piket"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel Bahasa Indonesia"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -3219,6 +3565,16 @@
                     android:text="SILFIYYA ROHMAH, S.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="Guru Piket"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -3276,6 +3632,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Wali Kelas 8G"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel PKN"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -3319,6 +3685,16 @@
                     android:text="SAEFURRAHMAN WAHID, S.Pd, M.Pd"
                     android:textColor="#000"
                     android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
+                    android:text="-"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
                     android:textStyle="bold" />
 
                 <TextView
@@ -3376,6 +3752,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Guru Piket"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Mapel Bahasa Arab"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -3426,6 +3812,16 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="55dp"
+                    android:text="Guru Piket"
+                    android:textColor="#F44336"
+                    android:textSize="17sp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:layout_marginTop="55dp"
                     android:text="Aqidah Akhlak"
                     android:textColor="#F44336"
                     android:textSize="17sp"
@@ -3466,7 +3862,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:text="H. RACHMAT WIDODO, S.Pd.I"
+                    android:text="H. RACHMAN WIDODO, S.Pd.I"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
