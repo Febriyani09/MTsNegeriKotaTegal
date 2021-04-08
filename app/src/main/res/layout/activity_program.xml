@@ -6,6 +6,313 @@
     android:layout_height="match_parent"
     tools:context=".ProgramActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
 
+        <GridLayout
+            android:id="@+id/mainGrid"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center_horizontal"
+            android:layout_weight="9"
+            android:alignmentMode="alignMargins"
+            android:columnCount="1"
+            android:columnOrderPreserved="false"
+            android:rowCount="4">
+
+
+        <androidx.cardview.widget.CardView
+            android:layout_width="match_parent"
+            android:layout_height="710dp"
+            android:layout_rowWeight="1"
+            android:layout_columnWeight="1"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="12dp"
+            android:layout_marginBottom="12dp"
+            app:cardCornerRadius="10dp">
+
+        <ImageView
+            android:layout_width="55dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="12dp"
+            android:layout_marginTop="12dp"
+            android:layout_marginRight="12dp"
+            android:src="@drawable/mts" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="20dp"
+            android:text="PROGRAM"
+            android:textColor="#000"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="80dp"
+            android:layout_marginTop="42dp"
+            android:layout_marginRight="12dp"
+            android:text="MTs NEGERI KOTA TEGAL"
+            android:textSize="15sp" />
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="25dp"
+            android:layout_marginTop="105dp"
+            android:layout_marginRight="12dp"
+            android:text="A. Bidang Kurikulum"
+            android:textColor="#000"
+            android:textSize="13sp"
+            android:textStyle="bold"/>
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="125dp"
+                android:layout_marginRight="12dp"
+                android:text="1. Proses kegiatan belajar mengajar"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="140dp"
+                android:layout_marginRight="12dp"
+                android:text="2. Penyusunan program KBM"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="160dp"
+                android:layout_marginRight="12dp"
+                android:text="3. InHouse Training (IHT) untuk kurikulum 2004"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="180dp"
+                android:layout_marginRight="12dp"
+                android:text="4. Evaluasi"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="200dp"
+                android:layout_marginRight="12dp"
+                android:text="5. Penunjang KBM (Perpustakaan, Laboratorium dan Komputer)"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="230dp"
+                android:layout_marginRight="12dp"
+                android:text="6. Supervisi Guru"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="250dp"
+                android:layout_marginRight="12dp"
+                android:text="7. Bimbingan Belajar"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="270dp"
+                android:layout_marginRight="12dp"
+                android:text="8. Try Out Soal"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="290dp"
+                android:layout_marginRight="12dp"
+                android:text="9. Ujian Nasional"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="310dp"
+                android:layout_marginRight="12dp"
+                android:text="10. Studi Banding"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="330dp"
+                android:layout_marginRight="12dp"
+                android:text="11. Bank Soal"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="350dp"
+                android:layout_marginRight="12dp"
+                android:text="12. Program pengolahan nilai dengan komputer"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="370dp"
+                android:layout_marginRight="12dp"
+                android:text="13. MGMP dan MGMPS"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="390dp"
+                android:layout_marginRight="12dp"
+                android:text="14. Piket dan tugasnya"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="410dp"
+                android:layout_marginRight="12dp"
+                android:text="15. Wali Kelas dan tugasnya"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="430dp"
+                android:layout_marginRight="12dp"
+                android:text="16. Koordinator mata pelajaran dan tugasnya"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="450dp"
+                android:layout_marginRight="12dp"
+                android:text="17. Jadwal KBM"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="470dp"
+                android:layout_marginRight="12dp"
+                android:text="18. Pembinaan siswa berprestasi"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="490dp"
+                android:layout_marginRight="12dp"
+                android:text="19. Olimpiade mata pelajaran"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="510dp"
+                android:layout_marginRight="12dp"
+                android:text="20. Pengiriman calon guru dan siswa berprestasi"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="530dp"
+                android:layout_marginRight="12dp"
+                android:text="21. Penertiban administrasi kurikulum (filing)"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="550dp"
+                android:layout_marginRight="12dp"
+                android:text="22. Peningkatan SDM guru"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="570dp"
+                android:layout_marginRight="12dp"
+                android:text="23. Peningkatan disiplin guru"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="40dp"
+                android:layout_marginTop="590dp"
+                android:layout_marginRight="12dp"
+                android:text="24. Melengkapi sarana kurikulum ( GBPP dan kurikulum 2004)"
+                android:textColor="#000"
+                android:textSize="13sp" />
+
+        </androidx.cardview.widget.CardView>
+        </GridLayout>
+    </ScrollView>
 
 </RelativeLayout>
