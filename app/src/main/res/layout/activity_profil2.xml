@@ -6,6 +6,10 @@
     android:layout_height="match_parent"
     tools:context=".ProfilActivity">
 
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
     <GridLayout
         android:id="@+id/mainGrid"
         android:layout_width="match_parent"
@@ -19,7 +23,7 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="400dp"
-            android:layout_height="125dp"
+            android:layout_height="200dp"
             android:layout_row="0"
             android:layout_column="0"
             android:layout_marginLeft="5dp"
@@ -28,11 +32,19 @@
             app:cardCornerRadius="10dp"
             android:onClick="visimisi">
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="135dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logovisimisi">
+
+            </ImageView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="150dp"
                 android:text="VISI MISI"
                 android:textColor="#000"
                 android:textSize="18sp"
@@ -43,18 +55,25 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="400dp"
-        android:layout_height="125dp"
+        android:layout_height="200dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="12dp"
         app:cardCornerRadius="10dp"
         android:onClick="sarpras">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="135dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logosarpras" >
+        </ImageView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="150dp"
             android:text="SARPRAS"
             android:textColor="#000"
             android:textSize="18sp"
@@ -65,18 +84,25 @@
 
     <androidx.cardview.widget.CardView
         android:layout_width="400dp"
-        android:layout_height="125dp"
+        android:layout_height="200dp"
         android:layout_marginLeft="5dp"
         android:layout_marginTop="10dp"
         android:layout_marginRight="12dp"
         app:cardCornerRadius="10dp"
         android:onClick="tentang">
 
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="135dp"
+            android:layout_marginTop="10dp"
+            android:src="@drawable/logoprestasi" >
+        </ImageView>
+
         <TextView
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:layout_gravity="center_horizontal"
-            android:layout_marginTop="40dp"
+            android:layout_marginTop="150dp"
             android:text="PRESTASI"
             android:textColor="#000"
             android:textSize="18sp"
@@ -86,18 +112,25 @@
 
         <androidx.cardview.widget.CardView
             android:layout_width="400dp"
-            android:layout_height="125dp"
+            android:layout_height="200dp"
             android:layout_marginLeft="5dp"
             android:layout_marginTop="10dp"
             android:layout_marginRight="12dp"
             app:cardCornerRadius="10dp"
             android:onClick="galeri">
 
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="135dp"
+                android:layout_marginTop="10dp"
+                android:src="@drawable/logogaleri" >
+            </ImageView>
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
                 android:layout_gravity="center_horizontal"
-                android:layout_marginTop="40dp"
+                android:layout_marginTop="150dp"
                 android:text="GALERI"
                 android:textColor="#000"
                 android:textSize="18sp"
@@ -107,4 +140,5 @@
 
         </androidx.cardview.widget.CardView>
     </GridLayout>
+    </ScrollView>
 </RelativeLayout>

@@ -29,10 +29,18 @@
             android:layout_marginBottom="12dp"
             app:cardCornerRadius="10dp">
 
+            <ImageView
+                android:layout_width="55dp"
+                android:layout_height="55dp"
+                android:layout_marginLeft="12dp"
+                android:layout_marginTop="12dp"
+                android:layout_marginRight="12dp"
+                android:src="@drawable/mts" />
+
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
+                android:layout_marginLeft="80dp"
                 android:layout_marginTop="20dp"
                 android:text="VISI MISI"
                 android:textColor="#000"
@@ -42,7 +50,7 @@
             <TextView
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:layout_marginLeft="25dp"
+                android:layout_marginLeft="80dp"
                 android:layout_marginTop="42dp"
                 android:layout_marginRight="12dp"
                 android:text="MTs NEGERI KOTA TEGAL"

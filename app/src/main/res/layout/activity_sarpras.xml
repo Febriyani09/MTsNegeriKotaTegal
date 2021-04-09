@@ -534,7 +534,7 @@
                     android:layout_gravity="center_horizontal"
                     android:layout_marginLeft="5sp"
                     android:layout_marginTop="5dp"
-                    android:layout_marg7inRight="5sp"
+                    android:layout_marginRight="5sp"
                     android:text="PONDOK PESANTREN"
                     android:textColor="#000"
                     android:textSize="10sp"
