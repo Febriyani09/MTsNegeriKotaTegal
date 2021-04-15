@@ -64,11 +64,11 @@
                         android:textSize="20sp"
                         android:textStyle="bold" />
 
+
                     <TextView
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_gravity="center_horizontal"
-                        android:layout_marginTop="65dp"
                         android:text="KEPALA MADRASAH"
                         android:textColor="#F44336"
                         android:textSize="17sp"
@@ -2419,10 +2419,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="FARIDA NUR HASANAH, S.Pd"
+                    android:text="FARIDA NUR"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="HASANAH, S.Pd"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -2483,10 +2492,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="DEDE DEWI ESTUNINGSIH, S.Pd"
+                    android:text="DEDE DEWI"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+                 <TextView
+                     android:layout_width="wrap_content"
+                     android:layout_height="wrap_content"
+                     android:layout_gravity="center_horizontal"
+                     android:text="ESTUNINGSIH, S.Pd"
+                     android:textColor="#000"
+                     android:textSize="20dp"
+                     android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -2995,10 +3013,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="AFTI YUNI ASMININGSIH, S.Pd"
+                    android:text="AFTI YUNI"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="ASMININGSIH, S.Pd"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -3324,10 +3351,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="NUNUNG KHUMAIDAH, S.Pd"
+                    android:text="NUNUNG"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="KHUMAIDAH, S.Pd"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -3717,10 +3753,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="RIZKY OKTAFIANI PUTRI, S.Pd"
+                    android:text="RIZKY OKTAFIANI"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="PUTRI, S.Pd"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -4110,10 +4155,19 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:text="H. RACHMAN WIDODO, S.Pd.I"
+                    android:text="H. RACHMAN"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:text="WIDODO, S.Pd.I"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
 
                 <TextView
                     android:layout_width="wrap_content"
@@ -4155,12 +4209,17 @@
                 android:layout_marginRight="12dp"
                 app:cardCornerRadius="10dp">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="30dp"
-                    android:text="NURKHIKMAH, SE,Msi, AK"
+                    android:text="NURKHIKMAH,"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -4169,13 +4228,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="55dp"
+                    android:text="SE,Msi, AK"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold" />
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
                     android:text="Staff TU"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
 
-
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView
@@ -4769,12 +4836,17 @@
                 android:layout_marginRight="12dp"
                 app:cardCornerRadius="10dp">
 
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:gravity="center_vertical"
+                    android:layout_height="match_parent"
+                    android:orientation="vertical">
+
                 <TextView
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="30dp"
-                    android:text="RAHMAT HIDAYAT, S.Kom"
+                    android:text="RAHMAT"
                     android:textColor="#000"
                     android:textSize="20sp"
                     android:textStyle="bold" />
@@ -4783,13 +4855,21 @@
                     android:layout_width="wrap_content"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
-                    android:layout_marginTop="55dp"
+                    android:text="HIDAYAT, S.Kom"
+                    android:textColor="#000"
+                    android:textSize="20dp"
+                    android:textStyle="bold"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
                     android:text="Staff TU"
                     android:textColor="#F44336"
                     android:textSize="17sp"
                     android:textStyle="bold" />
 
-
+                </LinearLayout>
             </androidx.cardview.widget.CardView>
 
             <androidx.cardview.widget.CardView

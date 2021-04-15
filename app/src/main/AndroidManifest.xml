@@ -9,7 +9,7 @@
         android:roundIcon="@drawable/mts"
         android:supportsRtl="true"
         android:theme="@style/Theme.MTsNegeriKotaTegal">
-        <activity android:name=".SplashScreenActivity"></activity>
+
         <activity android:name=".GaleriActivity" />
         <activity android:name=".TentangActivity" />
         <activity android:name=".SarprasActivity" />
@@ -20,15 +20,16 @@
         <activity android:name=".ProfilActivity" />
         <activity android:name=".SejarahActivity" />
         <activity android:name=".EkstrakulikulerActivity" />
-        <activity android:name=".BerandaActivity" />
-        <activity android:name=".PrestasiActivity" />
-        <activity android:name=".MainActivity">
+        <activity android:name=".SplashScreenActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
+                <action android:name="android.intent.action.VIEW" />
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity android:name=".MainActivity" />
+
     </application>
 
 </manifest>
